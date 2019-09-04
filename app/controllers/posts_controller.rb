@@ -25,8 +25,6 @@ class PostsController < ApplicationController
   end
 
   def signed_in_user
-    unless signed_in?
-      redirect_to signin_url
-    end
+    redirect_to signin_url unless signed_in?
   end
 end
