@@ -1,24 +1,27 @@
-# README
+# Members-Only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is written as an exclusive clubhouse, where your members can write embarrassing posts about non-members. Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote itfocused on user authentication and privileges. The key concepts are the use of a secure password digest method, a browser cookie 'remember user login' method (with secure remember token digest), and limiting access to certain functions (esp: viewing post author names) to signed-in users only. 
 
-Things you may want to cover:
+## Getting started
 
-* Ruby version
+To get started with the app, clone the repo and then install the needed gems:
 
-* System dependencies
+```$ bundle install --without production```
 
-* Configuration
+Next, migrate the database:
 
-* Database creation
+```$ rails db:migrate```
 
-* Database initialization
+Finally, run the server:
 
-* How to run the test suite
+```$ rails server```
 
-* Services (job queues, cache servers, search engines, etc.)
+You can open application in your browser:
 
-* Deployment instructions
+```http://localhost:3001/```
 
-* ...
+
+## Contributors
+
+* [Tunde Oretade](https://github.com/tundeiness)
+* [Olga Pelts](https://github.com/pelzolga123)
