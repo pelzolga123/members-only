@@ -1,6 +1,9 @@
-# Members-Only
+<h1 align="center">Members-Only 👋</h1>
 
 This project is written as an exclusive clubhouse, where your members can write embarrassing posts about non-members. Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote itfocused on user authentication and privileges. The key concepts are the use of a secure password digest method, a browser cookie 'remember user login' method (with secure remember token digest), and limiting access to certain functions (esp: viewing post author names) to signed-in users only. 
+
+## Built With
+* Ruby on Rails
 
 ## Getting started
 
@@ -18,10 +21,24 @@ Finally, run the server:
 
 You can open application in your browser:
 
-```http://localhost:3001/```
+```http://localhost:3000/```
 
+## Authors
 
-## Contributors
+👤 **Tunde Oretade**
+   - Github: [@tundeiness](https://github.com/tundeiness)
+   - LinkedIn: [Tunde Oretade](https://www.linkedin.com/in/tundeoretade/)
+   
+👤 **Olga Pelts**
+   - Github: [@pelzolga123](https://github.com/pelzolga123)
+   - LinkedIn: [Olga Pelts](https://www.linkedin.com/in/olga-pelts/)
 
-* [Tunde Oretade](https://github.com/tundeiness)
-* [Olga Pelts](https://github.com/pelzolga123)
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/pelzolga123/Bookstore/issues).
+
+1. Fork it (https://github.com/pelzolga123/Bookstore/fork)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add')
+4. Push to the branch (git push origin feature/[feature-name])
+5. Create a new Pull Request
