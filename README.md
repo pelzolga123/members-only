@@ -35,7 +35,7 @@ You can open application in your browser:
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/pelzolga123/Bookstore/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/pelzolga123/members-only/issues).
 
 1. Fork it (https://github.com/pelzolga123/members-only/fork)
 2. Create your working branch (git checkout -b [choose-a-name])
